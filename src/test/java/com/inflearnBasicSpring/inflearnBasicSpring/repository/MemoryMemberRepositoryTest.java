@@ -17,7 +17,7 @@ public class MemoryMemberRepositoryTest {
     //test클래스는 순서가 뒤죽박죽이기 때문에 테스트가 끝날때마다 repository를 지워줘야 에러가 나지 않는다.
     @AfterEach
     public void afterEach(){
-        repository.afterEach();
+        repository.clearStore();
     }
 
     @Test
