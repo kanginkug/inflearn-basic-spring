@@ -38,7 +38,7 @@ public class MemoryMemberRepository  implements MemberRepository{
     }
 
 
-    public void afterEach(){
+    public void clearStore(){
         store.clear();
     }
 }
